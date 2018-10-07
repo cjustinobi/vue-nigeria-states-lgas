@@ -20,8 +20,8 @@
             return {
                 states: states,
                 lgas: [],
-                state: '',
-                lga: ''
+                state: 'Select State',
+                lga: 'Select LGA'
             }
         },
 

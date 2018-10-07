@@ -1,5 +1,10 @@
 # # vue-nigeria-states-lgas
   
+  
+  [![NPM](https://nodei.co/npm/vue-nigeria-states-lgas.png?downloads=true)](https://nodei.co/npm/vue-nigeria-states-lgas/)
+  
+  [![npm version](https://badge.fury.io/js/vue-nigeria-states-lgas.svg)](https://badge.fury.io/js/vue-nigeria-states-lgas)
+  
   Vue library that lists Nigeria states and LGAs
   
   ### Installation
@@ -20,7 +25,11 @@
   Then register the component locally:
   
   ```javascript
+  
   <script>
+     import StatesLgas from 'vue-nigeria-states-lgas/dist/vue-naija-states-lgas.esm.js'
+     
+  
      exports default {
         ...
         
@@ -29,6 +38,7 @@
         ... 
      }
   </script>
+  
 ```
   Listen directly to events (selected `state` and `lga`) emitted from
   `StatesLgas` component using `v-on:state="getState"`
@@ -36,8 +46,11 @@
   
   On the `getState` and `getLga` methods, you now have the seleted `state` and `lga`.
  
-   ```javascript
+   ```javascript 
+   
    <script>
+      import StatesLgas from 'vue-nigeria-states-lgas/dist/vue-naija-states-lgas.esm.js'
+      
       exports default {
          ...
          
