@@ -1,6 +1,6 @@
 {
   "name": "vue-nigeria-states-lgas",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "description": "Vue library that lists Nigeria states and LGAs.",
   "main": "dist/vue-nigeria-states-lgas.umd.js",
   "module": "dist/vue-nigeria-states-lgas.esm.js",
